@@ -8,7 +8,7 @@ const button={
     background: '#9fe5f5',
     border: '2px solid #000000',
     boxSizing: 'border-box',
-    borderRadius: '20px',
+    borderRadius: '5px',
     color:'black',
     font: 'Roboto',
     fontStyle: 'normal',
@@ -17,6 +17,8 @@ const button={
     align: 'center',
     margin: '9px'
 }
+
+//link button is used to navigate between different pages 
 const Button = (props) => {
     return(
         <div>

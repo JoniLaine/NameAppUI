@@ -1,8 +1,8 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
-import TotalPage from './TotalPage'
+import TotalPage from './Total'
 
-const TotalForm = () => {
+const TotalPage = () => {
   return (
     <div>
       <Table>
@@ -12,4 +12,4 @@ const TotalForm = () => {
   )
 }
 
-export default TotalForm;
+export default TotalPage;

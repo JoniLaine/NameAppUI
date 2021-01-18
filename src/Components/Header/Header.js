@@ -6,6 +6,8 @@ import Image from 'react-bootstrap/Image';
 import logo from '../logo/logo.png';
 import Button from '../Button/Button';
 
+//header that is visible on all the pages
+
 const Header = () => {
 
     return (

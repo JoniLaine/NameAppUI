@@ -1,12 +1,11 @@
 import React from 'react';
-//import React, { Component } from 'react';
 import './App.css';
 
-import NamePage from '../Name/NamePage';
-import NameFormPage from '../NameFormPage/NameFormPage';
-import TotalPage from '../TotalPage/TotalPage';
-import AlphabeticalPage from '../Alphabetical/AlphabeticalPage'
-import PopularFirstPage from '../PopularFirstPage/PopularFirstPage'
+import NamePage from '../Name/Name';
+import NameFormPage from '../NameFormPage/NameForm';
+import TotalPage from '../TotalPage/Total';
+import AlphabeticalPage from '../Alphabetical/Alphabetical'
+import PopularFirstPage from '../PopularFirstPage/PopularFirst'
 
 import {
   BrowserRouter,
@@ -17,6 +16,7 @@ import {
 
 const App = () => {
  
+  //returns all routes to pages
   return (
     <BrowserRouter>
       <div className="App">
