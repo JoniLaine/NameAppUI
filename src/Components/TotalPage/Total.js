@@ -41,7 +41,7 @@ const Total = () => {
               <Button page="/PopularFirstPage" text="getMostPopularFirst"/>
               
           </Col>
-            <h2>Total amount:</h2>
+            <h2>Total amount of all the names:</h2>
             {/* total amount is set on the page*/}
             <h3>{total.amount}</h3>
       </Container>
